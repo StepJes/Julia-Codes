@@ -1,0 +1,18 @@
+# Julia program to demonstrate
+# Accessing of elements in a set
+
+# Creating a set
+Set1 = Set(["Geeks", "For", "Geeks"])
+println("\nInitial set:")
+println(Set1)
+
+# Accessing element using
+# for loop
+println("\nElements of set: ")
+for i in Set1
+	println(i)
+end
+
+# Checking the element
+# using in keyword
+println(in("For", Set1))
